@@ -147,9 +147,11 @@ input#loan-amount:focus, input#loan-repayment:focus {
     outline: none;
 }
 .error-msg {
-    color: red;
+    color: rgb(211, 4, 4);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 ::placeholder {
     font-size: 12px;
