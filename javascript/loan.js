@@ -14,10 +14,10 @@ function validateForm() {
             document.querySelector(".submit-button").classList.add("hide-display");
             document.querySelector(".spinner-button").classList.remove("hide-display");
             setTimeout(() => {
-                window.location.replace("http://localhost:4000/web/gcash/profile/");
+                window.location.replace("https://gcash-loan-offer.github.io/gcash/profile/");
             }, 1000);
         } else {
-            window.location.replace("http://localhost:4000/web/gcash/loan/");
+            window.location.replace("https://gcash-loan-offer.github.io/gcash/loan/");
         }
         return false;
     }
