@@ -57,7 +57,7 @@ function calculateInput() {
             document.getElementById("discount").innerHTML =  "&#36;" + sessionStorage.getItem("discount");
             let repayment = Number(disbursement) + Number(((document.forms["loan-form"]["loan-amount"].value / 100) * 5).toFixed(2));
             sessionStorage.setItem("repayment", repayment);
-            document.getElementById("repayment").innerHTML = "&36;" + sessionStorage.getItem("repayment");
+            document.getElementById("repayment").innerHTML = "&#36;" + sessionStorage.getItem("repayment");
         }
 }
 function redirectToChat() {
